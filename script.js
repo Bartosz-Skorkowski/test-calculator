@@ -34,19 +34,19 @@ function calculateTip(event) {
 
 function SetTip() {
   let opcja1 = document.getElementById("Napiwek").value;
-  opcja1 = 20;
+  opcja1 = 10;
   document.getElementById("Napiwek").value = opcja1;
   console.log(document.getElementById("Napiwek").value);
 }
 function SetTip2() {
   let opcja2 = document.getElementById("Napiwek").value;
-  opcja2 = 50;
+  opcja2 = 25;
   document.getElementById("Napiwek").value = opcja2;
   console.log(document.getElementById("Napiwek").value);
 }
 function SetTip3() {
   let opcja3 = document.getElementById("Napiwek").value;
-  opcja3 = 100;
+  opcja3 = 50;
   document.getElementById("Napiwek").value = opcja3;
   console.log(document.getElementById("Napiwek").value);
 }

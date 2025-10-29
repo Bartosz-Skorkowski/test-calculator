@@ -10,6 +10,12 @@ p2.addEventListener("click", SetTip2);
 const p3 = document.getElementById("p3");
 p3.addEventListener("click", SetTip3);
 
+const p4 = document.getElementById("p4");
+p4.addEventListener("click", SetTip4);
+
+const p5 = document.getElementById("p5");
+p5.addEventListener("click", SetTip5);
+
 const napiwek = document.getElementById("Napiwek");
 
 function calculateTip(event) {
@@ -27,27 +33,39 @@ function calculateTip(event) {
 
   let wynik = document.getElementById("wynik");
   let nap = document.getElementById("nap");
-  nap.innerText = `Napiwek : ${kwota * procent}`;
+  nap.innerText = ` ${kwota * procent}`;
 
-  wynik.innerText = ` Kwota całkowita: ${calosc}`;
+  wynik.innerText = ` ${calosc}`;
 }
 
 function SetTip() {
   let opcja1 = document.getElementById("Napiwek").value;
-  opcja1 = 20;
+  opcja1 = 5;
   document.getElementById("Napiwek").value = opcja1;
   console.log(document.getElementById("Napiwek").value);
 }
 function SetTip2() {
   let opcja2 = document.getElementById("Napiwek").value;
-  opcja2 = 50;
+  opcja2 = 10;
   document.getElementById("Napiwek").value = opcja2;
   console.log(document.getElementById("Napiwek").value);
 }
 function SetTip3() {
   let opcja3 = document.getElementById("Napiwek").value;
-  opcja3 = 100;
+  opcja3 = 15;
   document.getElementById("Napiwek").value = opcja3;
+  console.log(document.getElementById("Napiwek").value);
+}
+function SetTip4() {
+  let opcja4 = document.getElementById("Napiwek").value;
+  opcja4 = 25;
+  document.getElementById("Napiwek").value = opcja4;
+  console.log(document.getElementById("Napiwek").value);
+}
+function SetTip5() {
+  let opcja5 = document.getElementById("Napiwek").value;
+  opcja5 = 50;
+  document.getElementById("Napiwek").value = opcja5;
   console.log(document.getElementById("Napiwek").value);
 }
 
